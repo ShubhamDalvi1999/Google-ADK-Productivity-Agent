@@ -1,0 +1,55 @@
+daily_routine object {
+    meal_timings object {
+    breakfast string
+    dinner string
+    lunch string
+    }
+    working_hours object {
+    end string
+    start string
+    timezone string
+    }
+    workout_preferences [string
+    ]
+}
+    habits_and_behaviors object {
+    known_blockers [string
+    ]
+    procrastination_habits [string
+    ]
+}
+    metadata object {
+    created_at string
+    last_updated string
+    version number
+}
+    personal_info object {
+    age number
+    domain string
+    name string
+}
+    preferences object {
+    motivation_style string
+    notifications object {
+    preferred_channels [string
+        ]
+    reminder_frequency string
+    }
+}
+    productivity_insights object {
+    best_focus_times [string
+    ]
+    energy_levels object {
+    afternoon string
+    evening string
+    morning string
+    }
+    habit_streaks object {
+    task_completion_streak number
+    workout_streak_days number
+    }
+}
+    task_tracking object {
+    completed_tasks of object
+    current_tasks of object
+}
